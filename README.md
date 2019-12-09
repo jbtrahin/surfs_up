@@ -1,8 +1,10 @@
-# surfs_up
+# Surfs_Up Surf and Ice Cream Shop
 Module 9 on using Python, SQLAlchemy, and Flask, analyze and visualize climate data as you prepare to open a surf shop.
 
-## Project Overview
+## Module Overview
+In this module, you’ll spend time with new tools such as SQLite, SQLAlchemy, and Flask to build on your knowledge of SQL database structures and querying methods. You’ll also write and execute Python code in a Jupyter notebook and create graphs using Python.
 
+## Project Overview
 In this challenge, we will be finding a few key aspects of Oahu’s seasonal weather data. The investors want to ensure we’ve hit all of the key points before opening a surf shop.
 
 The goals for this challenge are to:
@@ -19,12 +21,11 @@ The goals for this challenge are to:
 
 ## Our Analysis
 
-### Key differences in weather between June and December.
-***
+### 1 - Key differences in weather between June and December.
 
-Stats All Dates | Stats June | Stats December
-- | - | -
-![all_dates_september.png](attachment:all_dates_september.png) | ![all_dates_june.png](attachment:all_dates_june.png) | ![all_dates.png](attachment:all_dates.png)
+|Stats All Dates | Stats June | Stats December |
+|:-------------: | :--------: | :------------: |
+|![alt text](https://github.com/jbtrahin/surfs_up/blob/master/snapshots/all_dates.png) | ![alt text](https://github.com/jbtrahin/surfs_up/blob/master/snapshots/all_dates_june.png) | ![alt text](https://github.com/jbtrahin/surfs_up/blob/master/snapshots/all_dates_september.png)|
 
 #### Observations on how we pulled the data:
 - The raw dataset we explored spanned from 01/01/2010 to 08/23/2017.
@@ -37,8 +38,7 @@ Stats All Dates | Stats June | Stats December
 - The standard deviation is about 0.34 inches in June and about 0.54 inches in December. We notice that June's standard deviation is closer the mean than for December. If we compare to the standard deviation of the entire data set (0.47 inches), we notice that December has a higher standard deviation which suggests that they have some heavier days of rain in December compared to June.
 - To corroborate this last point, we notice that 75% of the data points are below 0.12 inches in June and below 0.15  inches in December, which is lower than the mean in both cases. When looking at the max for both June and December, we notice that it is 13 standard deviation higher than the mean for June and 29 standard deviation higher than the mean for December. This tells us that there is some outliers in the data set that skewing the right for both months.
 
-### Recommendations for further analysis.
-***
+### 2 - Recommendations for further analysis.
 
 #### Here is a few recommendations to dive a little deeper in the dataset:
 - We could break down the analysis by stations and identify the most reliable station for the date range we're analyzing for. This would help make our analysis more accurate.
