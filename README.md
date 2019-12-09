@@ -1,4 +1,4 @@
-# Surfs_Up Surf and Ice Cream Shop
+# Surfs-Up
 Module 9 on using Python, SQLAlchemy, and Flask, analyze and visualize climate data as you prepare to open a surf shop.
 
 ## Module Overview
